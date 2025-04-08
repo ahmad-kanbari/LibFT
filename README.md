@@ -61,64 +61,64 @@ The Libft-42 library includes the following functions:
 
 These functions perform character classification, conversion, and comparison operations.
 
-* [`ft_isalpha`](https://github.com/anassajaanan/libft/blob/main/ft_isalpha.c): Checks if a character is an alphabetic character.
-* [`ft_isdigit`](https://github.com/anassajaanan/libft/blob/main/ft_isdigit.c): Checks if a character is a digit.
-* [`ft_isalnum`](https://github.com/anassajaanan/libft/blob/main/ft_isalnum.c): Checks if a character is an alphanumeric character.
-* [`ft_isascii`](https://github.com/anassajaanan/libft/blob/main/ft_isascii.c): Checks if a character is an ASCII character.
-* [`ft_isprint`](https://github.com/anassajaanan/libft/blob/main/ft_isprint.c): Checks if a character is a printable character.
-* [`ft_toupper`](https://github.com/anassajaanan/libft/blob/main/ft_toupper.c): Converts a lowercase character to uppercase.
-* [`ft_tolower`](https://github.com/anassajaanan/libft/blob/main/ft_tolower.c): Converts an uppercase character to lowercase.
+* [`ft_isalpha`]: Checks if a character is an alphabetic character.
+* [`ft_isdigit`]: Checks if a character is a digit.
+* [`ft_isalnum`]: Checks if a character is an alphanumeric character.
+* [`ft_isascii`]: Checks if a character is an ASCII character.
+* [`ft_isprint`]: Checks if a character is a printable character.
+* [`ft_toupper`]: Converts a lowercase character to uppercase.
+* [`ft_tolower`]: Converts an uppercase character to lowercase.
 
 ### String Functions
 
 These functions handle string manipulation, copying, concatenation, searching, and comparison tasks.
 
-* [`ft_strlen`](https://github.com/anassajaanan/libft/blob/main/ft_strlen.c): Calculates the length of a string.
-* [`ft_strlcpy`](https://github.com/anassajaanan/libft/blob/main/ft_strlcpy.c): Safely copies a string to another buffer.
-* [`ft_strlcat`](https://github.com/anassajaanan/libft/blob/main/ft_strlcat.c): Safely concatenates two strings.
-* [`ft_strchr`](https://github.com/anassajaanan/libft/blob/main/ft_strchr.c): Locates the first occurrence of a character in a string.
-* [`ft_strrchr`](https://github.com/anassajaanan/libft/blob/main/ft_strrchr.c): Locates the last occurrence of a character in a string.
-* [`ft_strnstr`](https://github.com/anassajaanan/libft/blob/main/ft_strnstr.c): Locates the first occurrence of a substring in a string, with a maximum length.
-* [`ft_strncmp`](https://github.com/anassajaanan/libft/blob/main/ft_strncmp.c): Compares two strings up to a maximum length.
-* [`ft_atoi`](https://github.com/anassajaanan/libft/blob/main/ft_atoi.c): Converts a string to an integer.
-* [`ft_strdup`](https://github.com/anassajaanan/libft/blob/main/ft_strdup.c): Creates a duplicate of a string.
+* [`ft_strlen`]: Calculates the length of a string.
+* [`ft_strlcpy`]: Safely copies a string to another buffer.
+* [`ft_strlcat`]: Safely concatenates two strings.
+* [`ft_strchr`]: Locates the first occurrence of a character in a string.
+* [`ft_strrchr`]: Locates the last occurrence of a character in a string.
+* [`ft_strnstr`]: Locates the first occurrence of a substring in a string, with a maximum length.
+* [`ft_strncmp`]: Compares two strings up to a maximum length.
+* [`ft_atoi`]: Converts a string to an integer.
+* [`ft_strdup`]: Creates a duplicate of a string.
 
 ### Memory Functions
 
 These functions manage memory operations, including setting, copying, moving, searching, and comparison.
 
-* [`ft_memset`](https://github.com/anassajaanan/libft/blob/main/ft_memset.c): Fills a memory block with a specified value.
-* [`ft_bzero`](https://github.com/anassajaanan/libft/blob/main/ft_bzero.c): Sets the contents of a memory block to zero.
-* [`ft_memcpy`](https://github.com/anassajaanan/libft/blob/main/ft_memcpy.c): Copies a memory block from source to destination.
-* [`ft_memccpy`](https://github.com/anassajaanan/libft/blob/main/ft_memccpy.c): Copies a memory block from source to destination until a certain character is reached.
-* [`ft_memmove`](https://github.com/anassajaanan/libft/blob/main/ft_memmove.c): Copies a memory block from source to destination, even if the two blocks overlap.
-* [`ft_memchr`](https://github.com/anassajaanan/libft/blob/main/ft_memchr.c): Locates the first occurrence of a character in a memory block.
-* [`ft_memcmp`](https://github.com/anassajaanan/libft/blob/main/ft_memcmp.c): Compares two memory blocks up to a maximum length.
+* [`ft_memset`]: Fills a memory block with a specified value.
+* [`ft_bzero`]: Sets the contents of a memory block to zero.
+* [`ft_memcpy`]: Copies a memory block from source to destination.
+* [`ft_memccpy`]: Copies a memory block from source to destination until a certain character is reached.
+* [`ft_memmove`]: Copies a memory block from source to destination, even if the two blocks overlap.
+* [`ft_memchr`]: Locates the first occurrence of a character in a memory block.
+* [`ft_memcmp`]: Compares two memory blocks up to a maximum length.
 
 ### List Functions
 
 These functions deal with linked list operations, such as creation, addition, deletion, iteration, and transformation.
 
-* [`ft_lstnew`](https://github.com/anassajaanan/libft/blob/main/ft_lstnew.c): Creates a new node for a linked list.
-* [`ft_lstadd_front`](https://github.com/anassajaanan/libft/blob/main/ft_lstadd_front.c): Adds a new node to the beginning of a linked list.
-* [`ft_lstsize`](https://github.com/anassajaanan/libft/blob/main/ft_lstsize.c): Counts the number of nodes in a linked list.
-* [`ft_lstlast`](https://github.com/anassajaanan/libft/blob/main/ft_lstlast.c): Returns the last node of a linked list.
-* [`ft_lstadd_back`](https://github.com/anassajaanan/libft/blob/main/ft_lstadd_back.c): Adds a new node to the end of a linked list.
-* [`ft_lstdelone`](https://github.com/anassajaanan/libft/blob/main/ft_lstdelone.c): Deletes a node from a linked list.
-* [`ft_lstclear`](https://github.com/anassajaanan/libft/blob/main/ft_lstclear.c): Deletes all nodes from a linked list.
-* [`ft_lstiter`](https://github.com/anassajaanan/libft/blob/main/ft_lstiter.c): Iterates through a linked list and applies a function to each node.
-* [`ft_lstmap`](https://github.com/anassajaanan/libft/blob/main/ft_lstmap.c): Iterates through a linked list, applies a function to each node, and creates a new list with the results.
+* [`ft_lstnew`]): Creates a new node for a linked list.
+* [`ft_lstadd_front`]: Adds a new node to the beginning of a linked list.
+* [`ft_lstsize`]: Counts the number of nodes in a linked list.
+* [`ft_lstlast`]: Returns the last node of a linked list.
+* [`ft_lstadd_back`]: Adds a new node to the end of a linked list.
+* [`ft_lstdelone`]): Deletes a node from a linked list.
+* [`ft_lstclear`]: Deletes all nodes from a linked list.
+* [`ft_lstiter`]: Iterates through a linked list and applies a function to each node.
+* [`ft_lstmap`]: Iterates through a linked list, applies a function to each node, and creates a new list with the results.
 
 ### Additional Functions
 
 These functions provide supplementary functionality, including string trimming, splitting, integer-to-string conversion, character mapping, and output to file descriptors.
 
-* [`ft_strtrim`](https://github.com/anassajaanan/libft/blob/main/ft_strtrim.c): Trims whitespace characters from the beginning and end of a string.
-* [`ft_split`](https://github.com/anassajaanan/libft/blob/main/ft_split.c): Splits a string into substrings based on a delimiter.
-* [`ft_itoa`](https://github.com/anassajaanan/libft/blob/main/ft_itoa.c): Converts an integer to a string.
-* [`ft_strmapi`](https://github.com/anassajaanan/libft/blob/main/ft_strmapi.c): Applies a function to each character in a string.
-* [`ft_putchar_fd`](https://github.com/anassajaanan/libft/blob/main/ft_putchar_fd.c): Outputs a character to a specified file descriptor.
-* [`ft_putstr_fd`](https://github.com/anassajaanan/libft/blob/main/ft_putstr_fd.c): Outputs a string to a specified file descriptor.
-* [`ft_putendl_fd`](https://github.com/anassajaanan/libft/blob/main/ft_putendl_fd.c): Outputs a string followed by a newline to a specified file descriptor.
-* [`ft_putnbr_fd`](https://github.com/anassajaanan/libft/blob/main/ft_putnbr_fd.c): Outputs an integer to a specified file descriptor.
+* [`ft_strtrim`]: Trims whitespace characters from the beginning and end of a string.
+* [`ft_split`]: Splits a string into substrings based on a delimiter.
+* [`ft_itoa`]: Converts an integer to a string.
+* [`ft_strmapi`]: Applies a function to each character in a string.
+* [`ft_putchar_fd`]: Outputs a character to a specified file descriptor.
+* [`ft_putstr_fd`]: Outputs a string to a specified file descriptor.
+* [`ft_putendl_fd`]: Outputs a string followed by a newline to a specified file descriptor.
+* [`ft_putnbr_fd`]: Outputs an integer to a specified file descriptor.
 
